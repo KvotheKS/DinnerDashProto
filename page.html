@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>DinnerDash</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body style="margin: 0 auto; padding-bottom: 0%;">
+        <!-- header -->
+        <header class="header">
+            <div class="header_container">
+                <h1 class="header_logo">dinnerdash</h1>
+                <ul class="header_menu">
+                    <li>
+                        <a href="#" class="header_link" id="backoffice-link">backoffice</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header_link" id="perfil-link">perfil</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header_link" id="sair-link">sair</a>
+                    </li>
+                </ul>
+                <ul class="header_title">
+                    <li style="font-size: 2.6rem;">Backoffice</li>
+                    <li style="color: rgba(255, 255, 255, 0.790);">Gerencie pedidos, refeições e mais.</li>                    
+                </ul>
+            </div>
+        </header>
+        <nav class ="navbar">
+            <li class="navbar_item">
+                <a href="#" class="navbar_link" id="pedidos-link">Pedidos</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#" class="navbar_link" id="usarios-link">Usuários</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#" class="navbar_link" id="refeicoes-link">Refeições</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#" class="navbar_link" id="refeicoes-cat-link">Categorias de Refeição</a>
+            </li>
+        </nav>
+      
+        <div class="full_table">
+            <div class="table_head_div">
+                <div class="table_head_names">
+                    <div class="table_head_name">Nome</div>
+                    <div class="table_head_name">Email</div>
+                    <div class="table_head_name">Cadastrado em</div>
+                </div>
+            </div>
+            <div class="table_info_div">
+                <table id="table_info" class="table_info">
+                </table>
+                <table id="table_buttons" class="table_buttons">
+                </table>
+                
+            </div>
+        </div>
+        <div id="button_line" class="button_line"></div>
+        <script>createArr(1)</script>
+        <footer class="footer">
+            <span style="padding-left: 3%;">dinnerdash | todos os direitos reservados</span>
+            <span style="padding-left: 50%;">desenvolvido por um trainee legal</span>
+        </footer>
+    </body>
+</html> 
